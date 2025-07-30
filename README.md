@@ -27,3 +27,9 @@ Run the container:
 ```sh
 docker run -p 8080:8080 geotextr
 ```
+
+## Configuration
+
+The application requires a Mapbox access token for map rendering.
+Copy `geotext/config.example.js` to `geotext/config.js` and place
+your token in the `MAPBOX_ACCESS_TOKEN` constant.
