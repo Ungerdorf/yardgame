@@ -3,3 +3,4 @@ geotext/uploads/
 __pycache__/
 *.pyc
 *.pyo
+geotext/config.js
